@@ -1,5 +1,8 @@
 const expect = chai.expect;
 const companyName = 'Scuber';
+let mostProfitableNeighborhood = 'Chelsea';
+let companyCeo = 'Susan Smith';
+
 describe('index.js', function () {
   describe('companyName', function () {
     it('is set as Scuber', function () {
